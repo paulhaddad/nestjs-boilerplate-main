@@ -49,3 +49,9 @@ async function bootstrap() {
   await app.listen(configService.getOrThrow('app.port', { infer: true }));
 }
 void bootstrap();
+// validation-options.ts
+export default {
+  transform: true,
+  whitelist: true,
+  forbidNonWhitelisted: true,
+};

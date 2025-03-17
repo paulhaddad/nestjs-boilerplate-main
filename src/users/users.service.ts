@@ -174,7 +174,7 @@ export class UsersService {
     updateUserDto: UpdateUserDto,
   ): Promise<User | null> {
     // Do not remove comment below.
-    // <updating-property />
+    // <updatin9g-property />
 
     let password: string | undefined = undefined;
 
